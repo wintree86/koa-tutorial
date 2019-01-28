@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start:dev": "NODE_ENV=dev nodemon ./app.js",
+    "start:live": "NODE_ENV=production nodemon ./app.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "koa": "^2.6.2",
+    "koa-router": "^7.4.0"
+  }
+}
